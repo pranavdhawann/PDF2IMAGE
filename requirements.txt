@@ -1,0 +1,9 @@
+Flask==2.3.3
+pdf2image==1.16.3
+Pillow==10.0.1
+Werkzeug==2.3.7
+
+# Poppler Installation (Required for pdf2image on Windows)
+# Download poppler binaries from: https://github.com/oschwartz10612/poppler-windows/releases
+# Extract to project root as: poppler/poppler-23.08.0/Library/bin/
+# The Flask app will automatically detect and use the poppler path
